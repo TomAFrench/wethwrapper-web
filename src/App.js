@@ -197,7 +197,7 @@ function App() {
                 color: !wrapEth ? "white" : "#ff3864",
               }}
             >
-              Unwrap w<span>{currentUser && currentUser.network.chain}</span>
+              Unwrap<span>{currentUser && currentUser.network.chain}</span>
             </Button>
           </ButtonGroup>
         </CenteredRow>
